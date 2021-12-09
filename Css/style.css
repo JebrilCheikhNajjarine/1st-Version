@@ -155,11 +155,17 @@ a.pdf:hover {
 .skills-title p {
   padding: 0%;
 }
+
 .skills-content {
   background-color: #040303;
   color: #ffff;
   padding: 5% 5%;
 }
+div .skills-container row skills-content {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .skills-progress span {
   font-size: 1.5rem;
   font-weight: 600;
@@ -213,6 +219,19 @@ a.pdf:hover {
 .Services-title p {
   padding: 0%;
 }
+/*Information*/
+.info-content {
+  background-color: #040303;
+  color: #ffff;
+  text-align: center;
+}
+.info-content h4 {
+  font-weight: 700;
+  padding: 1%;
+}
+.info-content h4:hover {
+  color: #f58840;
+}
 /*Footer*/
 
 #footer {
@@ -220,9 +239,16 @@ a.pdf:hover {
   display: inline;
 }
 .footer-container {
-  background-color: #f58840;
+  background-color: #040303;
   padding: 3% 15% 2%;
+  color: #ffff;
 }
 .social-icons {
   padding: 2%;
+}
+.social-icons i {
+  margin: 0 10px;
+}
+.social-icons i:hover {
+  color: #f58840;
 }
