@@ -263,13 +263,13 @@ div .skills-container row skills-content {
 .contact-container {
   background: #040303;
   color: #ffff;
-  padding: 20px;
+  padding: 7%;
 }
 .contact-container h2 {
   color: #f58840;
+  margin: 2% 3%;
 }
 .contact-container .contact-content {
-  margin: 30px 20px;
 }
 .btnsend {
   background-color: #f58840;
