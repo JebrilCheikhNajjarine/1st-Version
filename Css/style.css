@@ -139,7 +139,7 @@ a.pdf:hover {
   transform: translateX(-25px);
   color: #f58840;
 }
-.count-box span {
+.count-box h3 {
   font-size: 2.5rem;
   display: block;
   font-weight: 600;
@@ -178,6 +178,10 @@ div .skills-container row skills-content {
 .skills-progress span {
   font-size: 1.5rem;
   font-weight: 600;
+}
+#skills .progress-bar {
+  transition: width 0.6s ease;
+  background-color: #f58840;
 }
 
 .progress-bar text {
