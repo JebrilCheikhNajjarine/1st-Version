@@ -50,6 +50,7 @@ h6 {
   background-color: #f58840;
   height: 3rem;
 }
+
 .Profile {
   display: block;
   margin-left: auto;
@@ -218,6 +219,62 @@ div .skills-container row skills-content {
 }
 .Services-title p {
   padding: 0%;
+}
+.Services-Content {
+  background-color: #040303;
+}
+.icon-box-services {
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+  background: rgba(255, 2555, 255, 0.3);
+  margin: 15px 10px;
+}
+.icon-box-services:hover {
+  background: #f58840;
+}
+.icon-box-services:hover i {
+  color: #ffff;
+}
+.icon-box-services:hover h4 {
+  color: #040303;
+}
+.icon-box-services i {
+  color: #f58840;
+  margin-bottom: 10px;
+}
+.icon-box-services h4 {
+  color: #ffff;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+.icon-box-services p {
+  color: #ffff;
+  line-height: 24px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+/*Contact me */
+.mb-4 {
+  background-color: #040303;
+  margin-bottom: 0rem !important;
+}
+.contact-container {
+  background: #040303;
+  color: #ffff;
+  padding: 20px;
+  position: relative;
+}
+.contact-container h2 {
+  color: #f58840;
+}
+.contact-container .contact-content {
+  margin: 20px 50px;
+}
+.btnsend {
+  background-color: #f58840;
+  height: 3rem;
 }
 /*Information*/
 .info-content {
