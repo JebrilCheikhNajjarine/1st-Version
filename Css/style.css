@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: auto;
+
+  /*background-color: #040303;*/
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -156,7 +162,9 @@ a.pdf:hover {
 .skills-title p {
   padding: 0%;
 }
-
+.row.skills-content {
+  margin: 0;
+}
 .skills-content {
   background-color: #040303;
   color: #ffff;
@@ -193,6 +201,10 @@ div .skills-container row skills-content {
   color: #ffff;
   padding: 2% 3%;
 }
+.row.interests-content {
+  margin-left: 0;
+  margin-right: 0;
+}
 .interests-block {
   padding: 0px 15px;
   margin-bottom: 10px;
@@ -222,6 +234,10 @@ div .skills-container row skills-content {
 }
 .Services-Content {
   background-color: #040303;
+}
+.row.Services-Content {
+  margin-left: 0;
+  margin-right: 0;
 }
 .icon-box-services {
   align-items: center;
@@ -256,9 +272,8 @@ div .skills-container row skills-content {
   margin-bottom: 0;
 }
 /*Contact me */
-.mb-4 {
-  background-color: #040303;
-  margin-bottom: 0rem !important;
+.mb-4.contact-me {
+  margin-bottom: 0 !important;
 }
 .contact-container {
   background: #040303;
@@ -269,15 +284,18 @@ div .skills-container row skills-content {
   color: #f58840;
   margin: 2% 3%;
 }
-.contact-container .contact-content {
-}
+
 .btnsend {
   background-color: #f58840;
   height: 3rem;
 }
 /*Information*/
+.row.info-content {
+  margin-left: 0;
+  margin-right: 0;
+}
 .info-content {
-  background-color: #040303;
+  background-color: #f58840;
   color: #ffff;
   text-align: center;
 }
@@ -286,7 +304,7 @@ div .skills-container row skills-content {
   padding: 1%;
 }
 .info-content h4:hover {
-  color: #f58840;
+  color: #040303;
 }
 /*Footer*/
 
