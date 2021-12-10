@@ -1,9 +1,11 @@
 * {
   margin: 0;
   padding: auto;
+  scroll-behavior: smooth;
 
   /*background-color: #040303;*/
 }
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -14,6 +16,25 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #f58840;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 13px;
+}
+
+#myBtn:hover {
+  background-color: #040303;
 }
 
 /*NavBar*/
@@ -101,6 +122,9 @@ a.pdf:hover {
 }
 .about-content {
   padding: 5% 0% 7%;
+}
+.about-content p {
+  padding: 10px;
 }
 .about-Container h1 {
   color: #f58840;
